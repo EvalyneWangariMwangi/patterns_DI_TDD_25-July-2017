@@ -10,8 +10,13 @@ class CalculatorTest extends TestCase
 
 	private $calculator;
 
+
+	//set up the calculator
 	protected function setUp(){
 		// require_once'/src/Calculator.php';
+		// realized it requiring isnt important because i link the files when running the test command
+		// vendor/bin/phpunit --bootstrap src/Calculator.php tests/calculatorTest.php
+
 		$this->calculator = new Calculator();
 	}
 

@@ -1,12 +1,4 @@
 <?php
-
-// Table of content
-// 1. factory method
-
-
-
-// 1 . Factory Design Pattern
-// =====================================================================================================================================
 echo "This is test for Factory Design Pattern \n";
 
 //first abstract Class
@@ -150,6 +142,5 @@ class SeaFood extends AbstractPHPfood {
   function writeln($line_in) {
     echo $line_in."<br/>";
   }
+
 ?>
-
-
